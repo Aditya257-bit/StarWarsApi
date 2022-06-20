@@ -47,7 +47,7 @@ export default function List() {
           characters.map((character, index) => {
             return(
               <div key={index} className='card'>
-                <Link to={`/${((10*(pageNumber-1))+index+1)}`} key={index}>
+                <Link to={`/${((10*(pageNumber-1))+index+1+1)}`} key={index}>
                   <h2>{character.name}</h2>
                 </Link>
               </div>
