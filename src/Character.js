@@ -59,7 +59,7 @@ export default function Character({match}) {
           }
           {
             films.map((film, index) => (
-              <p className='filmNames'>{film.title}</p>
+              <p key={index} className='filmNames'>{film.title}</p>
             ))
           }
         </div>
