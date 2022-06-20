@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.loading {
+  margin: 14px 0 0 14px;
+  font-size: 20px;
+}
+
+.List__container {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.List__container .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: 90px;
+  padding: 20px;
+  margin-right: 16px;
+  text-align: center;
+  font-family: arial;
+}
+
+.List__container .card a {
+  text-decoration: none;
+  color: #5850EC;
+}
+
+.btn__container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn__container button {
+  padding: 4px;
+  margin: 2px;
+  cursor: pointer;
+}
